@@ -1,6 +1,6 @@
 # 📖 Quran Web
 
-Quran Web is a modern and feature-rich web application designed to provide a comprehensive Quran reading and listening experience. The app gives users access to the full Quran, spanning 114 Surahs, along with audio recitations, translations, and various reading aids — all wrapped in a clean, intuitive, and responsive interface. This project was built using React, TypeScript, and Tailwind CSS to ensure a smooth, maintainable, and scalable codebase while delivering a fast, mobile-friendly user experience.
+Quran Web is a modern and feature-rich web application designed to provide a comprehensive Quran reading and listening experience. The app gives users access to the full Quran, spanning 114 Surahs, along with audio recitations, translations, etc — all wrapped in a clean, intuitive, and responsive interface. This project was built using React, TypeScript, and Tailwind CSS to ensure a smooth, maintainable, and scalable codebase while delivering a fast, mobile-friendly user experience.
 
 ---
 
@@ -20,7 +20,7 @@ Quran Web is a modern and feature-rich web application designed to provide a com
 
 ## 🏗️ Tech Stack
 
-- Frontend: React, TypeScript, Tailwind CSS
+- Frontend: React, TypeScript
 - State Management: React Hooks (useState, useEffect)
 - API Integration: Quran API for fetching Quranic data, audio recitations, and Surah metadata.
 - Routing: React Router for seamless navigation between pages.
@@ -31,19 +31,54 @@ Quran Web is a modern and feature-rich web application designed to provide a com
 
 ## 📂 Project Structure
 ```
-alquran-web  
-├── public/               # Static assets (icons, images, etc.)  
-├── src/                  # Source code  
-│   ├── assets/           # Images, fonts, and icons  
-│   ├── components/       # Reusable UI components (Navbar, AudioPlayer, etc.)  
-│   ├── pages/            # Page-level components (Home, Surah, Settings)  
-│   ├── services/         # API service for fetching Quranic data  
-│   ├── App.tsx           # Root component managing app structure  
-│   └── main.tsx          # Entry point rendering the app  
-├── .env                  # API keys and environment variables  
-├── .gitignore            # Files to ignore during version control  
-├── package.json          # Project dependencies and scripts  
-└── vite.config.ts        # Vite configuration  
+.
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── assets
+│   │   ├── AyatBackgroundImage.png
+│   │   ├── ChevronRightIcon.svg
+│   │   ├── HeroBackgroundImage.png
+│   │   ├── PauseIcon.svg
+│   │   ├── PlayIcon.svg
+│   │   ├── VerseBackgroundImage.png
+│   │   └── react.svg
+│   ├── components
+│   │   ├── AudioControl.tsx
+│   │   ├── Ayat
+│   │   │   ├── AyatCard.tsx
+│   │   │   └── AyatList.tsx
+│   │   ├── DetailSurah
+│   │   │   ├── DetailSurah.tsx
+│   │   │   ├── DetailSurahContainer.tsx
+│   │   │   └── DetailSurahInfo.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Number.tsx
+│   │   ├── Profile.tsx
+│   │   ├── Surah
+│   │   │   ├── SurahCard.tsx
+│   │   │   ├── SurahContainer.tsx
+│   │   │   └── SurahList.tsx
+│   │   └── Verse.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── DetailSurahPage.tsx
+│   │   └── HomePage.tsx
+│   ├── types
+│   │   └── surah.ts
+│   └── vite-env.d.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts  
 ```
 ---
 
