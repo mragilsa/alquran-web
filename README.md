@@ -20,12 +20,13 @@ Quran Web is a modern and feature-rich web application designed to provide a com
 
 ## 🏗️ Tech Stack
 
-- Frontend: React, TypeScript
-- State Management: React Hooks (useState, useEffect)
-- API Integration: Quran API for fetching Quranic data, audio recitations, and Surah metadata.
-- Routing: React Router for seamless navigation between pages.
-- Deployment: Vercel for fast and reliable deployment.
-- Version Control: Git and GitHub for source code management.
+- Languages: TypeScript, JavaScript, CSS, HTML  
+- Framework/Library: React  
+- State Management: React Hooks (useState, useEffect)  
+- API Integration: Quran API for fetching Quranic data, audio recitations, and Surah metadata
+- Routing: React Router for seamless navigation between pages
+- Deployment: Vercel for fast and reliable deployment
+- Version Control: Git and GitHub for source code management  
 
 ---
 
