@@ -1,54 +1,90 @@
-# React + TypeScript + Vite
+# 📖 Quran Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quran Web is a modern and feature-rich web application designed to provide a comprehensive Quran reading and listening experience. The app gives users access to the full Quran, spanning 114 Surahs, along with audio recitations, translations, and various reading aids — all wrapped in a clean, intuitive, and responsive interface. This project was built using React, TypeScript, and Tailwind CSS to ensure a smooth, maintainable, and scalable codebase while delivering a fast, mobile-friendly user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Key Features
 
-## Expanding the ESLint configuration
+- Complete Quran Access: Read the entire Quran, organized into 114 Surahs.
+- Audio Recitation: Listen to recitations from multiple Qari (reciters) with playback controls.
+- Qari Selection: Choose from a variety of renowned Qari, allowing personalization of the listening experience.
+- Arabic Text: View the original Arabic script in a beautifully rendered font.
+- Latin Transliteration: Understand the pronunciation of each Ayah with Latin transliteration.
+- Indonesian Translation: Access translations in Bahasa Indonesia to comprehend the meaning of each verse.
+- Surah Information: View additional details like the Surah’s meaning, revelation place (Makkah/Madinah), and verse count.
+- Responsive Design: Optimized for mobile, tablet, and desktop screens.
+- Fast Performance: Leveraging Vite for lightning-fast builds and instant hot module replacement (HMR).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🏗️ Tech Stack
+
+- Frontend: React, TypeScript, Tailwind CSS
+- State Management: React Hooks (useState, useEffect)
+- API Integration: Quran API for fetching Quranic data, audio recitations, and Surah metadata.
+- Routing: React Router for seamless navigation between pages.
+- Deployment: Vercel for fast and reliable deployment.
+- Version Control: Git and GitHub for source code management.
+
+---
+
+## 📂 Project Structure
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+alquran-web  
+├── public/               # Static assets (icons, images, etc.)  
+├── src/                  # Source code  
+│   ├── assets/           # Images, fonts, and icons  
+│   ├── components/       # Reusable UI components (Navbar, AudioPlayer, etc.)  
+│   ├── pages/            # Page-level components (Home, Surah, Settings)  
+│   ├── services/         # API service for fetching Quranic data  
+│   ├── App.tsx           # Root component managing app structure  
+│   └── main.tsx          # Entry point rendering the app  
+├── .env                  # API keys and environment variables  
+├── .gitignore            # Files to ignore during version control  
+├── package.json          # Project dependencies and scripts  
+└── vite.config.ts        # Vite configuration  
 ```
+---
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository:
+   ``` bash
+   git clone https://github.com/mragilsa/alquran-web.git  
+
+2. Navigate into the project directory:
+   ``` bash
+   cd alquran-web  
+
+3. Install dependencies:
+   ``` bash
+   npm install  
+
+4. Run the development server:
+    ``` bash
+   npm run dev  
+
+5. Open the app in your browser at: [http://localhost:5173](http://localhost:5173)  
+
+---
+
+## 📘 How to Use
+
+1. Upon opening the app, you’ll see a list of all 114 Surahs.  
+2. Click on any Surah to open and read its verses.  
+3. Press the **Play** button to listen to the recitation from start to finish.  
+4. The app is designed for simplicity — just click, read, and listen!    
+---
+
+## 📄 License
+
+This project is not licensed. All rights reserved.
+
+---
+
+## 📧 Contact
+
+For any inquiries or feedback, feel free to reach out:  
+- GitHub: https://github.com/mragilsa  
+- Email: mragilsahyuda@gmail.com  
