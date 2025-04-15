@@ -17,7 +17,7 @@ Quran Web is a modern web app for reading and listening to the entire Quran. It 
 
 ## 🏗️ Tech Stack
 
-- Languages: TypeScript
+- Languages: TypeScript, Javascript, CSS, HTML
 - Framework: React
 - API: Quran API for data and audio
 - Deployment: Vercel
