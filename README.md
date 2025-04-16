@@ -4,7 +4,7 @@ Quran Web is a modern web app for reading and listening to the entire Quran. It 
 
 ---
 
-## 🌟 Key Features
+## 🔑 Key Features
 
 - Full access to all 114 Surahs
 - Listen to recitations from multiple Qaris
@@ -15,7 +15,7 @@ Quran Web is a modern web app for reading and listening to the entire Quran. It 
 
 ---
 
-## 🏗️ Tech Stack
+## 💻 Tech Stack
 
 - Languages: TypeScript, Javascript, CSS, HTML
 - Framework: React
@@ -55,7 +55,7 @@ Quran Web is a modern web app for reading and listening to the entire Quran. It 
 
 ---
 
-## 📧 Contact
+## ✉️ Contact
 
 For any inquiries or feedback, feel free to reach out:  
 - GitHub: https://github.com/mragilsa  
